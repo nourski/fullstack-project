@@ -15,6 +15,11 @@ interface ILinkProps {
 
 const StyledLink = styled(ReactRouterLink)`
   text-decoration: none;
+
+  &:focus {
+    outline: none;
+    opacity: 0.5;
+  }
 `
 
 const Link: React.FC<ILinkProps> = ({ label, pathname, isRoot }) => {

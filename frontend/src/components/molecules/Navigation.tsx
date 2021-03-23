@@ -13,6 +13,11 @@ const Logout = styled(Button)`
   border: none;
   outline: none;
   cursor: pointer;
+
+  &:focus {
+    outline: none;
+    opacity: 0.5;
+  }
 `
 const Navigation: React.FC = () => {
   const { colors, fontSizes } = useTheme()
