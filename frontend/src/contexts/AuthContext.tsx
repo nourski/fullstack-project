@@ -1,5 +1,5 @@
 import React, { ReactNode, useState } from 'react'
-import { Maybe, SetState } from '../types'
+import { Maybe, SetState } from '../types/aliases'
 
 interface IProps {
   children: ReactNode
