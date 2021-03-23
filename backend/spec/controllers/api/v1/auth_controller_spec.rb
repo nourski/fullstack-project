@@ -1,8 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe Api::V1::AuthController, type: :controller do
-  before { request.env['HTTP_REFERER'] = 'origin' }
-
   describe 'POST #login' do
     let(:user) { create(:user) }
     context 'with valid parameters' do
