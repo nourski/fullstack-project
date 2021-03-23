@@ -4,9 +4,10 @@ import { css } from '@emotion/react'
 export const Theme = {
   breakpoints: ['500px', '740px', '900px', '1080px', '1200', '1440px'],
   colors: {
-    teal: '#4fa9bf',
-    pink: '#d43852',
+    black: '#000000',
     grey: '#d2d2d2',
+    pink: '#d43852',
+    teal: '#4fa9bf',
   },
   fonts: {
     primary: 'roboto',
